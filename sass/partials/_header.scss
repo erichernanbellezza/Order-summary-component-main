@@ -1,0 +1,21 @@
+header {
+	margin-top: 5em;
+	width: 10em;
+
+	img {
+		width: 18em;
+		margin-left: 1em;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		header {
+			img {
+				width: 20em;
+			}
+		}
+	}
+}
